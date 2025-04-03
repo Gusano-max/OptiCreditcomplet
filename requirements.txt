@@ -1,5 +1,5 @@
 streamlit
 numpy
 pandas
-dateutil
+python-dateutil
 reportlab
