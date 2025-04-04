@@ -117,3 +117,15 @@ def afficher_logo():
     with col2:
         st.image("logo.webp", use_container_width=True)
 
+def valider_entrees(valeurs, regles):
+    """Vérifie chaque champ selon les règles fournies. Retourne une liste d'erreurs."""
+    erreurs = []
+    for champ, valeur in valeurs.items():
+        if champ in regles:
+            minimum, maximum, label = regles[champ]
+            if not (minimum <= valeur <= maximum):
+                erreurs.append(f"🔴 {label} doit être entre {minimum} et {maximum}")
+    return erreurs
+
+
+

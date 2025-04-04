@@ -1,4 +1,25 @@
-__pycache__/
-*.pyc
+# 🌱 Environnement virtuel
+test-env/
+venv/
 .env
+
+# 🔒 Fichiers de secrets
 .secrets.toml
+
+# 🧠 Caches Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 📦 Fichiers temporaires et de build
+*.egg-info/
+dist/
+build/
+
+# 💻 Configuration IDE
+.vscode/
+.idea/
+
+# 📄 Fichiers système
+.DS_Store
+Thumbs.db
