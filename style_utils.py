@@ -76,6 +76,21 @@ def afficher_resultats_markdown(texte: str):
             {texte}
     """, unsafe_allow_html=True)
 
+def afficher_resultats_markdown(texte_markdown):
+    """Affiche un encadré sobre et élégant contenant du Markdown."""
+    st.markdown(f"""
+        <div style='
+            background-color: #d7dbdds;
+            border: 1px solid #C32026;
+            padding: 1rem;
+            border-radius: 10px;
+            font-size: 16px;
+            color: #000;
+        '>
+            {texte_markdown}
+        </div>
+    """, unsafe_allow_html=True)
+
 
 def encart_contact():
     st.markdown("""
@@ -96,8 +111,9 @@ def encart_contact():
     </div>
     """, unsafe_allow_html=True)
 
-def afficher_logo(chemin="logo.webp", largeur=300):
+
+def afficher_logo():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image(chemin, width=largeur)
+        st.image("logo.webp", use_container_width=True)
 
