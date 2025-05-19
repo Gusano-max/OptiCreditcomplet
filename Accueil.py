@@ -39,7 +39,8 @@ st.markdown("""
 - 🧮 Utiliser les **Calculettes de capacité d’emprunt en fonction de vos revenus et de vos charges**
 - 🧮 Calculer une **mensualité** à partir d'un **capital emprunté**
 - 🧮 Calculer un **capital empruntable** à partir **d'une mensualité*** 
-- 🔁 Simuler un **rachat de crédit**           
+- 🔁 Simuler un **rachat de crédit**
+- 🔁 Simuler un **différé partiel ou total**                       
 
 👉 Sélectionnez une section dans la barre latérale à gauche pour commencer.
 """)

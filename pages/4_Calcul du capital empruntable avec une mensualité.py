@@ -4,7 +4,8 @@ from style_utils import configure_page, apply_custom_css, afficher_logo, ligne_d
 configure_page(title="Capacité de financement", icon="📊")
 apply_custom_css()
 
-
+apply_custom_css()
+afficher_logo()
 st.markdown("<h3 style='text-align:center;'>Calculer un capital à emprunter à partir d'une mensualité</h3>", unsafe_allow_html=True)
 ligne_decorative()
 

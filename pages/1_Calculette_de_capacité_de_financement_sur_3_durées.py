@@ -9,8 +9,7 @@ configure_page(title="Simulation de rachat de prêt", icon="📉")
 apply_custom_css()
 afficher_logo()
 
-st.markdown("<h3 style='text-align:center;'>Calculette de capacité de financement</h3>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align:center;'>Calculez votre capacité d'emprunt sur 3 durées</h3>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align:center;'>Calculez votre capacité d'emprunt sur 3 durées</h4>", unsafe_allow_html=True)
 ligne_decorative()
 
 st.markdown("#### Informations personnelles et financières")
