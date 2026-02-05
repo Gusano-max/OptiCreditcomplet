@@ -115,7 +115,7 @@ def encart_contact():
 def afficher_logo():
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image("logo.webp", use_container_width=True)
+        st.image("logo.webp", width="stretch")
 
 def valider_entrees(valeurs, regles):
     """Vérifie chaque champ selon les règles fournies. Retourne une liste d'erreurs."""
